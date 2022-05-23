@@ -10,3 +10,6 @@ export const getPosts = () => async (dispatch) => {
       console.log(error.message);
     }
   };
+
+
+  
