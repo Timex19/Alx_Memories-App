@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Container, AppBar, Typography, Grow, Grid } from '@material-ui/core';
+import { Container, AppBar, Typography, Grow, Grid, formatMs } from '@material-ui/core';
 import { useDispatch } from 'react-redux';
 
 import { getPosts } from './actions/posts';
@@ -7,8 +7,8 @@ import Posts from './components/Posts/Posts';
 import Form from './components/Form/Form';
 import memories from './images/memories.png';
 import useStyles from './styles';
-
 const App = () => {
+    AppBar, Typography, Grow, Grid from '@material-ui/core';
     const classes = useStyles();
     const dispatch = useDispatch();
 
