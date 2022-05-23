@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-<<<<<<< HEAD
 import { Container, Grow, Grid, Paper, AppBar, TextField, Button   } from '@material-ui/core';
 import { useDispatch } from 'react-redux';
 import {useHistory, useLocation} from 'react-router-dom';
@@ -79,35 +78,7 @@ const handleAdd = (tag) => setTags([...tags, tag ]);
                <Button onClick={searchPost} className={classes.searchButton} variant="contained" color="primary">Search</Button>
             </AppBar>
              <Form currentId={currentId} setCurrentId={setCurrentId} />
-              <Paper elevation={6}></Paper>
-=======
-import { Container, Grow, Grid, Paper } from '@material-ui/core';
-import { useDispatch } from 'react-redux';
-
-import { getPosts } from '../../actions/posts';
-import Pagination from '../Pagination';
-import Posts from '../Posts/Posts';
-import Form from '../Form/Form';
-
-const Home = () => {
-  const [currentId, setCurrentId] = useState(0);
-  const dispatch = useDispatch();
-
-  useEffect(() => {
-    dispatch(getPosts());
-  }, [currentId, dispatch]);
-
-  return (
-    <Grow in>
-      <Container>
-        <Grid container justifyContent="space-between" alignItems="stretch" spacing={3}>
-          <Grid item xs={12} sm={7}>
-            <Posts setCurrentId={setCurrentId} />
-          </Grid>
-          <Grid item xs={12} sm={4}>
-            <Form currentId={currentId} setCurrentId={setCurrentId} />
-            <Paper elevation={6}>
->>>>>>> 95d5cb28359b47a1d158347c7201a2faa47daa19
+              <Paper elevation={6}>
               <Pagination />
             </Paper>
           </Grid>
