@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import { Typography, TextField, Button } from '@material-ui/core';
 import { useDispatch } from 'react-redux';
 
@@ -11,6 +11,7 @@ const CommentSection = ({ post }) => {
     const [comment, setComment] = useState('');
     const user = JSON.parse(localStorage.getItem('profile'));
     const dispatch = useDispatch();
+    const commentsRef = useRef();
 
     const handleClick = async () => {
         const finalComment = `${user.result.name}: ${comment}`;
@@ -19,6 +20,8 @@ const CommentSection = ({ post }) => {
 
         setComments(newComments);
         setComment('');
+
+        commentsRef.current.scrollIntoView({ behavior: 'smooth' });
     };
 
     return (
@@ -32,9 +35,10 @@ const CommentSection = ({ post }) => {
                             {c.split(':')[1]}
                         </Typography>
                     ))}
+                    <div ref={commentsRef} />
                 </div>
                 {user?.result?.name && (
-                    <div style={{ width: '80%'}}>
+                    <div style={{ width: '70%'}}>
                         <Typography gutterBottom variant="h6" aligntext="center">Write a Comment</Typography>
                         <TextField 
                             fullWidth
