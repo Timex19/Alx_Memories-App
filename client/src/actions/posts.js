@@ -5,6 +5,7 @@ import * as api from '../api/index.js';
 export const getPosts = (page) => async (dispatch) => {
     try {
       dispatch({ type: START_LOADING });
+
       const { data } = await api.fetchPosts(page);
   
       dispatch({ type: FETCH_ALL, payload: data });
@@ -32,7 +33,6 @@ export const createPost = (post) => async (dispatch) => {
     const { data } = await api.createPost(post);
 
     dispatch({ type: CREATE, payload: data });
-    dispatch({ type: END_LOADING });
   } catch (error) {
     console.log(error);
   }
