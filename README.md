@@ -56,7 +56,7 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 ## Team
 
 [![Ojo Timilehin Joseph](https://avatars1.githubusercontent.com/u/12688534?v=3&s=144)](https://ojotimilehin.tech)  | [![Damilola Akinrinmade](https://github.com/iharsh234/WebApp/blob/master/images/quandl.jpg)](https://github.com/Becca615) | [![Eba Meguistu](https://avatars1.githubusercontent.com/u/12688534?v=3&s=144)](https://github.com/EbaMengistu1)
----|---
+---|---|---
 [Ojo Timilehin Joseph](https://ojotimilehin.tech) |[Damilola Akinrinmade](https://github.com/Becca615) |[Eba Meguistu](https://github.com/EbaMengistu1)
 
 ## [License](https://github.com/timex19/Alx_Memories-App/blob/master/LICENSE.md)
