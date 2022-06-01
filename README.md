@@ -55,7 +55,7 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 
 ## Team
 
-[![Ojo Timilehin Joseph](https://avatars1.githubusercontent.com/u/12688534?v=3&s=144)](https://ojotimilehin.tech)  | [![Damilola Akinrinmade](https://github.com/iharsh234/WebApp/blob/master/images/quandl.jpg)](https://github.com/Becca615) | [![Eba Meguistu](https://avatars1.githubusercontent.com/u/12688534?v=3&s=144)](https://github.com/EbaMengistu1)
+[![Ojo Timilehin Joseph](https://avatars.githubusercontent.com/u/88297303?v=4)](https://ojotimilehin.tech)  | [![Damilola Akinrinmade](https://avatars.githubusercontent.com/u/88207721?v=4)](https://github.com/Becca615) | [![Eba Meguistu](https://avatars.githubusercontent.com/u/88311316?v=4)](https://github.com/EbaMengistu1)
 ---|---|---
 [Ojo Timilehin Joseph](https://ojotimilehin.tech) |[Damilola Akinrinmade](https://github.com/Becca615) |[Eba Meguistu](https://github.com/EbaMengistu1)
 
